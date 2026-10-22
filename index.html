@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo"> MiniFlog </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__link"><a href="#Hero">Hero</a></li>
+            <li class="nav__link"><a href="#about">skiels</a></li>
+            <li class="nav__link"><a href="#project">my Projectu</a></li>
+            <li class="nav__link"><a href="#">footer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="Hero">
+        <div class="container hero__container">
+          <div class="hero__article">
+            <span class="hero__tag">Hi, I'm</span>
+            <h1 class="hero__title">Kosovych <span class="hero__tag-name">Iwan</span></h1>
+            <span class="hero__span">Junior Frontend Developer</span>
+            <p class="hero__subtitle">
+              Я створюю сайти через коди html і также їх стилізую через css i
+              інші види также роблю анімації та багато іншого
+            </p>
+            <div class="btn__wrapper">
+              <button class="hero__btn-primary">View my work →</button>
+              <button class="hero__btn-secondari">
+                Dowload CV
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="hero__icon-svg"
+                >
+                  <path d="M12 17V3" />
+                  <path d="m6 11 6 6 6-6" />
+                  <path d="M19 21H5" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="hero__img-wrapper">
+            <img src="./images/hero__image.png">
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about__container">
+          <h1 class="about__title">Мої навички</h1>
+          <ul class="about__list">
+            <li class="about__item">
+              <span class="about__tag">html</span>
+            </li>
+             <li class="about__item">
+              <span class="about__tag">css</span>
+            </li>
+             <li class="about__item">
+              <span class="about__tag">scss</span>
+            </li>
+             <li class="about__item">
+              <span class="about__tag">boostrap</span>
+            </li>
+             <li class="about__item">
+              <span class="about__tag">telewind</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects" id="project">
+        <div class="container projects__conteiner">
+          <div class="projects__nav">
+            <button class="projects__nav-btn" data-index="1">Project 01</button>
+            <button class="projects__nav-btn" data-index="2">Project 02</button>
+            <button class="projects__nav-btn" data-index="3">Project 03</button>
+            <button class="projects__nav-btn" data-index="4">Project 04</button>
+          </div>
+          <div class="projects__list">
+            <div class="projects__item project" data-project="1">
+              <div class="project__left">
+                <div class="project__date">
+                  <span></span>
+                  <p>mar 2 2025</p>
+                </div>
+                <h3 class="projects__name">Lumen</h3>
+                <p class="projects__desk">
+                  Адаптивна головна сторінка з hero-секцією, навігацією та блоком «Featured Movie»
+                  з рейтингом, описом і кнопками дій.
+                  Створено на HTML та CSS за макетом із Figma, з акцентом на темний 
+                  кінематографічний стиль і читабельну типографіку.
+                </p>
+                <a href="#" class="projects__link">
+                  view project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="projects__icon-svg"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
+                <div class="project__tags">
+                  <span>html</span>
+                  <span>css</span>
+                </div>
+                </div>
+              <div class="project__right project__right-1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvTMXiU-lnthyLl8wDVZUwG419AzjJfV9E3ulI2NrbPA&s=10">
+              </div>
+            </div>
+
+
+            <div class="projects__item project" data-project="2">
+              <div class="project__left">
+                <div class="project__date">
+                  <span></span>
+                  <p>mar 2 2025</p>
+                </div>
+                <h3 class="projects__name">Solarium</h3>
+                <p class="projects__desk">
+                  Стильна головна сторінка в естетиці Y2K з навігацією, 
+                  кнопкою «Join the club», великим заголовком із градієнтним акцентом і фото-композицією з моделлю та кросівками.
+                  Створено з акцентом на виразну типографіку, теплу коричнево-жовту палітру та сучасний дизайн із 
+                  заокругленими блоками й повʼязаним розташуванням елементів.
+                </p>
+                <a href="#" class="projects__link">
+                  view project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="projects__icon-svg"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
+                <div class="project__tags">
+                  <span>html</span>
+                  <span>css</span>
+                </div>
+                </div>
+              <div class="project__right project__right-2">
+                <img src="https://www.shutterstock.com/image-vector/bold-y2k-logo-featuring-stylized-260nw-2582022119.jpg">
+              </div>
+            </div>
+
+            <div class="projects__item project" data-project="3">
+              <div class="project__left">
+                <div class="project__date">
+                  <span></span>
+                  <p>mar 2 2025</p>
+                </div>
+                <h3 class="projects__name">FoodDash</h3>
+                <p class="projects__desk">
+                 Яскрава головна сторінка з пошуком страв, кошиком, hero-блоком, статистикою
+                  (500+ ресторанів, 30 хв, рейтинг 4.9) та кнопками швидкого замовлення.
+                 Створено з використанням Tailwind CSS, з акцентом на адаптивну верстку, теплий 
+                 помаранчевий градієнт і зручний інтерфейс.
+                </p>
+                <a href="#" class="projects__link">
+                  view project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="projects__icon-svg"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
+                <div class="project__tags">
+                  <span>html</span>
+                  <span>Telewind</span>
+                </div>
+                </div>
+              <div class="project__right project__right-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPoDczlR55M5-gq34trgIdosbRDQNe3I3tH52Qq3XyDp7vLk832rIi2Sl&s=10">
+              </div>
+            </div>
+
+
+            <div class="projects__item project" data-project="4">
+               <div class="project__left">
+                <div class="project__date">
+                  <span></span>
+                  <p>mar 2 2025</p>
+                </div>
+                <h3 class="projects__name">unicorn</h3>
+                <p class="projects__desk">
+                  Він не є глобальним проектом це мій перший проект і вирішив що йому тут місце
+                  він на чистому html де є цікава інформація про єдинорогів
+                </p>
+                <a href="#" class="projects__link">
+                  view project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="projects__icon-svg"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
+                <div class="project__tags">
+                  <span>html</span>
+                </div>
+                </div>
+              <div class="project__right project__right-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbpnUiMDfwKEyNNushFUzDFmBKmZcJWy8rJy06S1V1g&s=10">
+              </div> 
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+  <div class="container footer__container">
+    <p class="footer__copy">Ivan Kosovych</p>
+    <ul class="footer__links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Email</a></li>
+    </ul>
+  </div>
+</footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
